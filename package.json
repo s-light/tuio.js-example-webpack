@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "osc": "^2.2.0",
+    "wolfy87-eventemitter": "^5.1.0"
+  },
+  "name": "tuio.js-example-webpack",
+  "version": "0.1.0",
+  "description": "testing tuio.js related things in combination with yarn and webpack",
+  "main": "index.js",
+  "repository": "git@github.com:s-light/tuio.js-example-webpack.git",
+  "author": "s-light <github@s-light.eu>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.3.1"
+  }
+}
