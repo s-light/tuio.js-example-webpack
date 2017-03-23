@@ -2,7 +2,13 @@
 
 // ./node_modules/webpack/bin/webpack.js --progress
 
-import TUIOReceiver from './tuio';
+
+import {TUIOReceiver, TUIOEventRegEx} from './tuio';
+
+// import osc from 'test';
+// import osc from '../node_modules/osc/dist/osc-browser.js';
+// import osc from './osc-browser';
+
 
 export default class TUIOTestApp {
 

@@ -112,6 +112,8 @@
 //
 
 import EventEmitter from 'wolfy87-eventemitter';
+// import osc from 'test';
+// import osc from './osc-browser';
 import osc from 'osc';
 
 export const TUIOEventRegEx = /tuio(?:2|25|3)D(?:cur|obj|blb)(?:Add|Set|Del)/;
@@ -148,7 +150,7 @@ export class TUIOProfile {
 // http://exploringjs.com/es6/ch_modules.html#_named-exports-several-per-module
 // currently not supported by browsers?!
 // import osc from 'osc-browser';
-export default class TUIOReceiver extends EventEmitter {
+export class TUIOReceiver extends EventEmitter {
     constructor({ url="ws://localhost:3334"}) {
         // call construct for EventEmitter
         super();
