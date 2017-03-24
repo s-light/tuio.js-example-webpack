@@ -5,17 +5,11 @@ module.exports = {
     entry: './src/index.js',
     // resolve: {
     //     alias: {
-    //         // oscbrowser$: "osc/dist/osc-browser.js",
-    //         // test: "node_modules/osc/dist/osc-browser.js"
-    //         test$: "osc/dist/osc-browser.js"
+    //         osc$: "osc/dist/osc-browser.js"
     //     }
     // },
     // module: {
-    //     noParse: /osc-browser/,
-    //     // noParse: [
-    //     //     // 'node_modules/osc/dist/osc-browser.js',
-    //     //     '/src/osc-browser.js',
-    //     // ],
+    //     noParse: /osc/,
     // },
     externals: {
         osc: 'osc'

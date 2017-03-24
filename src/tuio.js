@@ -112,8 +112,6 @@
 //
 
 import EventEmitter from 'wolfy87-eventemitter';
-// import osc from 'test';
-// import osc from './osc-browser';
 import osc from 'osc';
 
 export const TUIOEventRegEx = /tuio(?:2|25|3)D(?:cur|obj|blb)(?:Add|Set|Del)/;

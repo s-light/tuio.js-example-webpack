@@ -189,8 +189,6 @@
 //
 
 
-// import osc from 'test';
-// import osc from './osc-browser';
 
 
 const TUIOEventRegEx = /tuio(?:2|25|3)D(?:cur|obj|blb)(?:Add|Set|Del)/;
@@ -1195,9 +1193,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-// import osc from 'test';
-// import osc from '../node_modules/osc/dist/osc-browser.js';
-// import osc from './osc-browser';
+
 
 
 class TUIOTestApp {
