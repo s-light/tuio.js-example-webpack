@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "osc": "^2.2.0",
-    "wolfy87-eventemitter": "^5.1.0"
+    "osc": "^2.4.0",
+    "wolfy87-eventemitter": "^5.2.9"
   },
   "name": "tuio.js-example-webpack",
   "version": "0.1.0",
@@ -11,6 +11,6 @@
   "author": "s-light <github@s-light.eu>",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^2.3.1"
+    "webpack": "^4.42.0"
   }
 }
